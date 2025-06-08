@@ -1,0 +1,6 @@
+services:
+  swp391:
+    image: ${DOCKER_REGISTRY-}swp391
+    build:
+      context: .
+      dockerfile: SWP391/Dockerfile
